@@ -60,4 +60,8 @@ void peek()
         cout <<endl;
     }
 }
+bool isEmpty()
+{
+    return top == NULL;
+    }
 };
