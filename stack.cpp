@@ -100,4 +100,20 @@ int main ()
             <<endl;
         }
         break;
-           
+            case 3:
+            {
+            if (!stact.isEmpty())
+            {
+                stact.peek();
+            }
+            else
+            {
+                cout << "stact is Empty. No top Value." << endl;
+            }
+            break;
+        }
+            case 4:
+            cout << "exiting program." <<endl;
+            break;
+            
+
